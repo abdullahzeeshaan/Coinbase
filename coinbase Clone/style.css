@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Nanbar */
+
+header{
+    border-bottom: 1px solid rgb(236, 239, 241);
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.two{
+    background-color: #f5f8ff;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.flexWrapper{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0px auto;
+}
+
+header ul li{
+    color: #050f19;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar_icon{
+    color: #050f19;
+}
+
+.navbar_signIn{
+    color: #0a0b0d;
+    background-color: #eef0f3;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.navbar_signUp{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* section 1 */
+
+.heroSection{
+    height: 750px;
+    justify-content: center;
+}
+
+.heroSection_heading{
+   font-size: 64px;
+   font-weight: 600;
+   color: #0a0b0d;
+}
+
+.heroSection_para{
+   font-size: 28px;
+   color: #000000;
+}
+
+.email{
+    color: #0a0b0d;
+    margin-top: 55px;
+    font-size: 14px;
+}
+
+input{
+    padding: 17px;
+    height: 56px;
+    width: 313px;
+    font-size: 18px;
+    border:1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.heroSection_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* Section 2 */
+
+
+.exploreCrypto{
+    height: 560px;
+    justify-content: center;
+}
+
+.exploreCrypto_rightSide{
+    margin-left: 40px;
+}
+
+.exploreCrypto_button_tradable{
+    background-color: #32353d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+}
+
+.exploreCrypto_button_gainers{
+    background-color: #eef0f3;
+    color: #0a0b0d;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+}
+
+.boxes{
+    gap: 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    grid-template-rows: repeat(2, minmax(0px, 1fr));
+    margin-top: 40px;
+}
+
+.exploreCrypto_box{
+    background-color: #ffffff;
+    list-style: none;
+    height: 155px;
+    width: 155px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px;
+    padding: 10px;
+    align-items: flex-start;
+    display: grid;
+    border: 1px solid #ced7ea;
+}
+
+li h2{
+    color: #0a0b0d;
+    font-size: 16px;
+}
+
+li p{
+    color: #5b616e;
+    font-size: 16px;
+}
+
+.green{
+    color: #098551;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.red{
+    color: #cf202f;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.black{
+    color: #5b616e;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.exploreCrypto_heading{
+    font-size: 34px;
+    color: #000000;
+}
+
+.exploreCrypto_para{
+    font-size: 28px;
+    margin-top: 30px;
+    color: #0a0b0d;
+}
+
+.exploreCrypto_left_button{
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Section 3 */
+
+.portfolio{
+    height: 818px;
+    justify-content: center;
+}
+
+.portfolio_para{
+    font-size: 28px;
+    color: #0a0b0d;
+}
+
+.portfolio_heading{
+    font-size: 40px;
+    color: #0a0b0d;
+    margin-top: 10px;
+
+}
+
+.portfolio_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.portfolio_section_img{
+    margin-left: 10px;
+}
+
+/* Section 4 */
+
+.four{
+    background-color: #1e2025;
+}
+
+.section_four{
+    height: 296px;
+    justify-content: center;
+}
+
+.section_four_heading{
+    color: #ffffff;
+    font-size: 34px;
+    padding-right: 75px;
+}
+
+.section_four_right{
+    margin-top: 20px;
+}
+
+.section_four_para{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.section_four_button{
+    background-color: #eef0f3;
+    color: #0a0b0d;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+/* Section 5 */
+
+.section_five{
+    height: 847px;
+    justify-content: center;
+}
+
+.section_five_img{
+    padding-right: 75px;
+}
+
+.img_and_logo{
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    height: 36px;
+    width: 185px;
+    align-items: end;
+}
+
+.coinbase{
+    margin-left: 10px;
+}
+
+.section_five_heading{
+    font-size: 48px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_five_para{
+    font-size: 16px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_five_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Section 6 */
+
+.section_six{
+    height: 847px;
+    justify-content: center;
+}
+
+.section_six_img{
+    padding-right: 75px;
+}
+
+.advanced{
+    margin-left: 10px;
+}
+
+.section_six_heading{
+    font-size: 48px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_six_para{
+    font-size: 16px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_six_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Section 7 */
+
+.section_seven{
+    height: 847px;
+    justify-content: center;
+}
+
+.section_seven_img{
+    padding-right: 75px;
+}
+
+.wallet{
+    margin-left: 10px;
+}
+
+.section_seven_heading{
+    font-size: 48px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_seven_para{
+    font-size: 16px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_seven_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Section 8 */
+
+.section_eight{
+    height: 847px;
+    justify-content: center;
+}
+
+.section_eight_img{
+    padding-right: 75px;
+}
+
+.prime{
+    margin-left: 10px;
+}
+
+.section_eight_heading{
+    font-size: 48px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_eight_para{
+    font-size: 16px;
+    color: #0a0b0d;
+    margin-top: 20px;
+}
+
+.section_eight_signup_button{
+    color: #ffffff;
+    background-color: #0052ff;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 27px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Section 9 */
+
+.account-div{
+    width: 100%;
+    height: 532px;
+    background-color: #0052ff;
+    margin-top: 100px;
+    display: flex;   
+}
+
+.text1{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.dollar{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    /* display: flex;     */
+}
+
+.text1 h2{
+    font-size: 2.5rem;
+}
+
+.text1 li {
+    margin-left: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.text1{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.small-div{
+    width: 350px;
+    height: 170px;
+    color: white;
+    margin-left: 20px;
+    padding: 35px; 
+    border-left: 1px solid white;
+}
+
+.small-div h2{
+    width: 700;
+    font-size: 6rem;
+}
+
+/* section 10 */
+
+.text2{
+    width: 100%;
+    height: 200px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.text2{
+    margin-left: 20px;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+
+.text2 h2{
+    font-size: 2rem;
+    padding-bottom: 20xp;
+}
+
+.text2 h3{
+    padding-top: 10px;
+    padding-bottom: 20xp;
+    color: #7b8084;
+}
+
+.logo-box{
+    width: 250px;
+    height: 500px;
+    background-color: #fdf6f6;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.logo h4 {
+    margin-top: 30px;
+}
+
+.logo h2 {
+    margin-top: 40px;
+}
+
+/* section 11 */
+
+.contener6{
+    width:100%;
+    height: 800px;
+    background-color: #dbdbdb;
+    margin-top: 100px;
+}   
+
+.text3{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.text3 h2{
+    font-size: 2rem;
+}
+
+.text3 h4{
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #63696d;
+}
+
+.text3{
+    padding: 25px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.div-3{
+    width: 350px;
+    height: 500px;
+    margin-left: 35px;
+}
+
+.div-2{
+    width: 250px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.div-3 img{
+    border-radius: 30px;
+}
+
+.div-2 img{
+    height: 200px;
+    border-radius: 30px;    
+}
+
+.div-3 h4{
+    padding-top: 10px; 
+    padding-left: 10px;
+}
+
+.div-2 h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+  
+.div-3 h2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.div-2 h2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+  
+.div-2{
+    color: blue;
+}
+
+.div-3{
+    color: blue;
+}
+ 
+    
+/* section  12*/
+
+.div-up img{
+    margin-left: 580px;
+}       
+
+.div-bottom{
+    margin-top:-80px;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+}
+
+.div-bottom h2 {
+    margin-bottom:20px;
+    padding-left: 20px;
+    font-size:2rem ;
+}
+
+.div-bottom h3{
+    margin-bottom:20px;
+    padding-left: 20px;
+}    
+.div-bottom{
+    margin-bottom:20px;
+    padding-left: 20px;
+}
+
+/* section 13 */
+
+.black-div{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(25, 20, 20);
+    margin-top: 200px;
+}   
+   
+.black{
+    color: white;
+    padding: 20px 50px;
+    padding-top: 100px;
+}
+
+.black h4{
+    padding-bottom: 20px;
+}
+
+.black h2{
+    font-size: 2rem;
+}
+
+
+/* footer section */
+
+.white-div{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    padding-left: 50px;
+}    
+
+.left-white{
+    margin-top: -460px;
+    margin-right: 10px;
+}
+
+.left-white h2{
+    padding-bottom: 20px;
+    color: blue;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+.left-white p{
+    padding-top: 20px; 
+    font-weight: 700;
+}
+
+.footer{
+    width: 280px;
+    height: 800px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
